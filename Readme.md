@@ -1,5 +1,5 @@
 ## Final code : word_file 
->> Made it modular 
+Made it modular 
 1) word_density.py : for counting density of each word . word_file for all the words and exclude_file for words to be excluded .
 2) permutations_using_sorted_sets: For displaying permutation of string
 
