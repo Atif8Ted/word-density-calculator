@@ -2,9 +2,9 @@
 Poject title : To find word density : Topic 7
 '''
 '''
-Team Members: Atif Imam : U101113FCS194 :S3
+Team Members: Aakanksha Kapoor : U101113FCS267 :S5
+              Atif Imam : U101113FCS194 :S3
               Ekta Tiwari : U101113FCS283 :S3
-              Aakanksha Kapoor : U101113FCS267 :S5
               Tanya Ghumman : U101113FCS285 :S3
 
 '''
@@ -69,18 +69,20 @@ def main():
         word_file,exclude_file,freq=user_args
 
     except ValueError:
-        print("Needed 3 arguments , supplied  %d" %len(user_args))
-        print("Usage: python3 word_freq_dict.py word_file exclude_file 10")
+        print("Needed 3 arguments , supplied  {:d}".format(len(user_args)))
+        print("Usage: python3 word_density.py <word_file> <exclude_file> <10>")
         sys.exit()
+        
     s=WordDensityCalc()
     s.form_density_dictionary(word_file,exclude_file)
     top=(s.top_freq_calc(int(freq)))
     least=(s.least_freq_calc(int(freq)))
+    
     print()
-    print("Top %d used words are :" %int(freq),end=" ")
+    print("Top {:d} used words are :" .format(int(freq),end=" "))
     print(top)
     print()
-    print("Least %d used words are :" %int(freq),end=" ")
+    print("Least {:d} used words are :".format(int(freq),end=" "))
     print(least)
 
 if __name__=="__main__":
