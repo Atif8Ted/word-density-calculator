@@ -6,7 +6,7 @@ Made it modular
 ## How to use it :
 
 ```
-python3 word_density <word_file> <exclude_file> <no_of_top/least_frequent_words>
+python3 word_density.py <word_file> <exclude_file> <no_of_top/least_frequent_words>
 
 Ex:
 
@@ -14,7 +14,7 @@ python3 word_density.py word_file exclude_file 15
 
 ```
 ### contributors:
-Aakanksha Kapoor
-Atif Imam
-Ekta Tiwari
-Tanya Ghumman
+**Aakanksha Kapoor**<br>
+**Atif Imam**<br>
+**Ekta Tiwari**<br>
+**Tanya Ghumman**
