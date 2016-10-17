@@ -1,5 +1,4 @@
-## Final code : word_density.py
-Made it modular 
+## Final code : word_density.py<br>
 1) word_density.py : for counting density of each word . word_file for all the words and exclude_file for words to be excluded .
 
 - 
