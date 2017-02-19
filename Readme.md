@@ -14,7 +14,7 @@ python3 word_density.py word_file exclude_file 15
 
 ```
 ####Output:
-![alt text](pic.png "Output")
+![Output :)](pic.png "Output")
 ### contributors:
 **Aakanksha Kapoor**<br>
 **Atif Imam**<br>
